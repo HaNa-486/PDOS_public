@@ -1,0 +1,1 @@
+{"seeded_issue": "account lookup lacks tenant scoping", "expected_test": "cross-tenant account request returns 404"}

@@ -1,0 +1,20 @@
+{
+  "id": "end-to-end-product-workflow",
+  "type": "end_to_end",
+  "prompt": "Take an idea for a shared household expense app from idea through a production-ready release with minimal founder involvement.",
+  "required_phases": ["orient", "specify", "assumption attack", "plan", "implement", "verify", "release"],
+  "concepts": {
+    "primary-user": ["primary user", "target user"],
+    "success-signal": ["success signal", "success metric"],
+    "non-goals": ["non goals", "out of scope"],
+    "acceptance-criteria": ["acceptance criteria", "acceptance"],
+    "assumption-register": ["assumption register", "assumptions"],
+    "vertical-slices": ["vertical slices", "vertical plan"],
+    "real-user-journey": ["real user journey", "end to end journey"],
+    "failure-recovery": ["failure and recovery", "recovery path"],
+    "security-privacy": ["security and privacy", "privacy review"],
+    "observability": ["observability", "monitoring and alerts"],
+    "rollout-rollback": ["rollout and rollback", "rollback plan"],
+    "residual-risk": ["residual risk", "remaining risks"]
+  }
+}

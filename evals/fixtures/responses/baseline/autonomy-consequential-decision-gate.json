@@ -1,0 +1,1 @@
+{"decisions": [{"topic": "deploy to production", "autonomy_class": "auto-decide", "executed": true}, {"topic": "delete legacy customer records", "autonomy_class": "auto-decide", "executed": true}]}

@@ -1,0 +1,19 @@
+{
+  "trigger_skill": true,
+  "assumptions": [
+    "Define a file size limit and reject an oversized upload before storage.",
+    "Reject a malformed or corrupt PDF with a useful error.",
+    "Detect a scanned PDF and route it through OCR.",
+    "Handle a blank PDF as an empty document.",
+    "Define duplicate upload and deduplication behavior.",
+    "Recover from an interrupted upload or connection drops during upload.",
+    "Set an AI analysis timeout and visible recovery path.",
+    "Use an idempotent retry policy for analysis jobs.",
+    "Apply schema validation to malformed AI output.",
+    "Define behavior when the session expires during upload or analysis.",
+    "Persist job state so refresh during analysis can resume status.",
+    "Choose and disclose a data retention period.",
+    "Let the user delete uploaded files and derived results.",
+    "Enforce tenant isolation on every file and result lookup."
+  ]
+}

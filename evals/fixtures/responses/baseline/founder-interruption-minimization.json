@@ -1,0 +1,10 @@
+{
+  "questions": [
+    {"topic": "Which web framework should I use?", "consequential": false},
+    {"topic": "What should the primary button say?", "consequential": false},
+    {"topic": "Should folders use kebab case?", "consequential": false},
+    {"topic": "What retry count do you prefer?", "consequential": false},
+    {"topic": "What is the pricing model?", "consequential": true}
+  ],
+  "decisions": []
+}

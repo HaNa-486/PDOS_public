@@ -1,0 +1,16 @@
+{
+  "workflow": {
+    "phases": ["orient", "specify", "assumption attack", "plan", "implement", "verify", "release"],
+    "artifacts": ["product spec", "acceptance criteria", "assumption register", "vertical slices", "release gate"]
+  },
+  "notes": [
+    "Identify the primary user, target user job, success signal, and non goals.",
+    "Trace acceptance criteria to a real user journey and an end to end journey.",
+    "Exercise failure and recovery for invitations, concurrent edits, offline entry, and settlement.",
+    "Run a security and privacy review for household membership and financial data.",
+    "Add observability with monitoring and alerts for entry and settlement failures.",
+    "Use staged rollout and rollback with an executable rollback plan.",
+    "Report residual risk and all remaining risks before the go or no-go decision."
+  ],
+  "evidence": ["static checks", "unit tests", "integration tests", "contract tests", "end-to-end tests", "manual first-user journey"]
+}

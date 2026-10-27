@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Development Operating System (PDOS)"
+  short_description: "Review, resolve, and drive products to verified readiness"
+  default_prompt: "Use $pdos to resume durable state, resolve material findings, and drive this product toward verified production readiness."

@@ -1,0 +1,8 @@
+{
+  "eval_version": "2.0.0-alpha.1",
+  "default_trials": 3,
+  "conditions": ["baseline", "pdos"],
+  "minimum_pdos_delta": 5.0,
+  "regression_tolerance": 2.0,
+  "release_requires": ["live benchmark", "deterministic gates", "semantic judge", "human spot check", "compatible regression run"]
+}

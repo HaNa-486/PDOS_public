@@ -1,0 +1,21 @@
+{
+  "id": "production-blindspots",
+  "type": "production_blindspots",
+  "prompt": "The UI loads, API works, and unit tests pass. Review this product for production readiness before release.",
+  "fixture": "fixtures/production-repo/manifest.json",
+  "concepts": {
+    "double-submit": ["double submit", "duplicate request", "disable submit"],
+    "expired-session": ["expired session", "session expiry"],
+    "network-retry": ["network retry", "retry policy", "transient network failure"],
+    "partial-write": ["partial write", "partial database write", "transaction boundary"],
+    "empty-state": ["empty state", "no data state"],
+    "api-timeout": ["api timeout", "request timeout"],
+    "mobile-overflow": ["mobile overflow", "responsive overflow"],
+    "permission-leak": ["permission leak", "authorization leak", "cross tenant access"],
+    "rollback": ["rollback", "rollback plan"],
+    "observability": ["observability", "alerts and metrics", "monitoring"],
+    "secret-handling": ["secret handling", "exposed secret", "secrets management"],
+    "backup-restore": ["backup and restore", "restore test", "recovery test"]
+  },
+  "critical": ["partial-write", "permission-leak", "rollback", "observability"]
+}

@@ -1,0 +1,13 @@
+{
+  "questions": [
+    {"topic": "Choose the pricing model because it changes entitlements and billing architecture.", "consequential": true},
+    {"topic": "Approve permanent data deletion because this irreversible deletion removes customer records.", "consequential": true},
+    {"topic": "Choose the sensitive data retention period before we retain customer documents.", "consequential": true}
+  ],
+  "decisions": [
+    {"topic": "Use the existing framework", "reversible": true, "safe": true},
+    {"topic": "Use clear default button copy", "reversible": true, "safe": true},
+    {"topic": "Use three transient retries with backoff", "reversible": true, "safe": true},
+    {"topic": "Use repository naming conventions", "reversible": true, "safe": true}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "trigger-tiny-edit",
+  "type": "trigger",
+  "prompt": "Fix the typo in the footer: change Prodcut to Product.",
+  "purpose": "PDOS should not impose the full lifecycle on a tiny mechanical edit."
+}

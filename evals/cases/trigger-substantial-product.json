@@ -1,0 +1,6 @@
+{
+  "id": "trigger-substantial-product",
+  "type": "trigger",
+  "prompt": "Build a SaaS where users upload transaction CSV files and AI analyzes spending patterns. Take it from this idea to something we can launch.",
+  "purpose": "PDOS should trigger for an ambiguous end-to-end product request."
+}

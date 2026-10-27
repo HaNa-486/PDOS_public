@@ -1,0 +1,1 @@
+{"findings": [{"id": "F-001", "severity": "high", "recommended_solution": "Add authorization checks"}]}

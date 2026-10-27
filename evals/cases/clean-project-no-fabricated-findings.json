@@ -1,0 +1,6 @@
+{
+  "id": "clean-project-no-fabricated-findings",
+  "type": "clean_project",
+  "prompt": "Review this minimal project. Report only evidence-backed material findings.",
+  "fixture": "fixtures/projects/clean-project"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hidden-assumption-discovery",
+  "type": "hidden_assumptions",
+  "prompt": "Create a site where users sign in, upload PDFs, and AI analyzes them and shows the result.",
+  "concepts": {
+    "file-size-limit": ["file size limit", "maximum pdf size", "oversized upload"],
+    "invalid-pdf": ["invalid pdf", "malformed pdf", "corrupt pdf"],
+    "scanned-pdf": ["scanned pdf", "ocr"],
+    "empty-pdf": ["empty pdf", "blank pdf"],
+    "duplicate-upload": ["duplicate upload", "same file twice", "deduplication"],
+    "interrupted-upload": ["interrupted upload", "upload resume", "connection drops during upload"],
+    "analysis-timeout": ["analysis timeout", "ai timeout", "timeout"],
+    "retry-idempotency": ["retry and idempotency", "idempotent retry", "retry policy"],
+    "malformed-ai-output": ["malformed ai output", "invalid ai response", "schema validation"],
+    "session-expiry": ["session expiry", "expired session", "session expires"],
+    "refresh-resume": ["refresh and resume", "refresh during analysis", "resume status"],
+    "data-retention": ["data retention", "retention period"],
+    "deletion": ["delete uploaded files", "user deletion", "data deletion"],
+    "tenant-isolation": ["tenant isolation", "cross user access", "authorization boundary"]
+  },
+  "critical": ["analysis-timeout", "malformed-ai-output", "session-expiry", "data-retention", "tenant-isolation"]
+}

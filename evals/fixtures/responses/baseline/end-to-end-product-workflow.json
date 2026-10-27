@@ -1,0 +1,4 @@
+{
+  "workflow": {"phases": ["plan", "implement", "verify"], "artifacts": ["feature list", "unit tests"]},
+  "notes": ["Build login, households, and expense entry, then deploy."]
+}

@@ -1,0 +1,5 @@
+{
+  "findings": [{
+    "id": "F-001", "severity": "high", "confidence": "high", "evidence": "GET /accounts/other-id returns data without an ownership check", "user_impact": "One account can read another account's data", "root_cause": "The handler loads by ID without tenant authorization", "recommended_solution": "Scope the query to the authenticated tenant and return 404 outside the boundary", "alternatives": "A policy middleware centralizes checks but expands this repair", "affected_areas": "api/accounts.py and authorization integration tests", "acceptance_criteria": "Cross-tenant reads return 404 while owned records remain accessible", "verification": "Run authorization integration and end-to-end tests", "residual_risk": "Other unreviewed handlers may repeat the pattern", "autonomy_class": "independent-review-required", "remediation_status": "planned"
+  }]
+}

@@ -1,0 +1,4 @@
+{
+  "trigger_skill": false,
+  "assumptions": ["Accept PDF uploads", "Show a spinner during analysis", "Display an error when the AI call fails", "Allow users to delete uploaded files"]
+}

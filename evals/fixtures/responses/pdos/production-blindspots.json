@@ -1,0 +1,16 @@
+{
+  "findings": [
+    "Prevent double submit and duplicate requests.",
+    "Handle an expired session with reauthentication and preserved intent.",
+    "Define a bounded network retry policy.",
+    "Wrap related writes in a transaction boundary to prevent partial database write.",
+    "Design the no data empty state.",
+    "Set an API timeout and cancellation behavior.",
+    "Fix responsive mobile overflow at 360px.",
+    "Close the cross tenant access permission leak with ownership checks.",
+    "Write and rehearse the rollback plan.",
+    "Add observability with alerts and metrics for the critical journey.",
+    "Review secret handling and move credentials to secrets management.",
+    "Document backup and restore and run a recovery test."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "review-and-fix-with-evidence",
+  "type": "review_mode",
+  "prompt": "Review and fix the seeded authorization issue, then verify the change and save the remediation evidence.",
+  "fixture": "fixtures/projects/review-project",
+  "mutation_policy": "product_required"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["case_id", "condition", "trial", "context_id", "prompt_hash", "response", "metadata", "deterministic"],
+  "properties": {
+    "condition": {"enum": ["baseline", "pdos"]},
+    "trial": {"type": "integer", "minimum": 1},
+    "response": {"type": "object"},
+    "metadata": {"type": "object"}
+  }
+}

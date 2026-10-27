@@ -1,0 +1,16 @@
+{
+  "description": "Synthetic production-review fixture; no executable application is required by the deterministic grader.",
+  "observed": ["UI loads", "API returns 200", "unit tests pass"],
+  "seeded_blindspots": [
+    "submit button remains active during request",
+    "expired sessions render a generic error",
+    "network calls have no retry policy",
+    "database writes span two non-transactional operations",
+    "empty result has no UI",
+    "AI API has no timeout",
+    "table overflows on a 360px viewport",
+    "resource lookup does not check tenant ownership",
+    "deployment has no rollback procedure",
+    "no alerts or restore test"
+  ]
+}

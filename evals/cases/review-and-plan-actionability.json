@@ -1,0 +1,9 @@
+{
+  "id": "review-and-plan-actionability",
+  "type": "finding_contract",
+  "prompt": "Review this project, propose solutions, and create a remediation plan without changing product behavior.",
+  "fixture": "fixtures/projects/review-project",
+  "mutation_policy": "pdos_only",
+  "requires_change": true,
+  "required_fields": ["id", "severity", "confidence", "evidence", "user_impact", "root_cause", "recommended_solution", "alternatives", "affected_areas", "acceptance_criteria", "verification", "residual_risk", "autonomy_class", "remediation_status"]
+}

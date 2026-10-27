@@ -1,0 +1,25 @@
+{
+  "id": "state-continuity-resume",
+  "type": "state_continuity",
+  "prompt": "Continue the account-permissions work in this project from a fresh context. Preserve prior product decisions, make progress, and leave the project ready for another fresh context.",
+  "fixture": "fixtures/resume-project",
+  "required_flags": [
+    "state_read_first",
+    "state_reconciled",
+    "guidance_synced",
+    "workstreams_checked",
+    "branch_identity_recorded",
+    "privacy_boundary_respected",
+    "state_updated",
+    "handoff_written"
+  ],
+  "required_files": [
+    ".pdos/STATE.md",
+    ".pdos/plans/active.md",
+    ".pdos/specs/behavior.md"
+  ],
+  "forbidden_files": [
+    ".pdos/reviews/archived-marketing-review.md",
+    ".pdos/plans/completed-onboarding.md"
+  ]
+}

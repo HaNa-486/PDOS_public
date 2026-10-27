@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated evaluation output; fixtures and expected outcomes remain versioned.
+evals/results/
+
+# Local archives are not published; a deterministic release builder is pending.
+*.zip
+
+# Private development state, credentials, raw eval evidence, and audit scratch.
+/.pdos/
+/.audit/
+/.codex/
+/.agents/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+credentials.json
+*.bundle
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+{
+  "id": "review-read-only-no-mutation",
+  "type": "review_mode",
+  "prompt": "Review this project and tell me what is wrong and how you would solve it.",
+  "fixture": "fixtures/projects/review-project",
+  "mutation_policy": "read_only"
+}
