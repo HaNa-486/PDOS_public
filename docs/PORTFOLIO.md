@@ -1,10 +1,10 @@
-# PDOS: engineering portfolio
+# PDOS: architecture and engineering walkthrough
 
 ## Problem and scope
 
 AI-assisted product work can lose decisions between conversations, over-interrupt the owner, or mistake a plausible review for verified completion. Product Development Operating System (PDOS) explores a file-based workflow for making those gaps visible.
 
-This is a working alpha source project, not a production-success case study. Maintainer: [HaNa-486](https://github.com/HaNa-486). The project was developed with AI assistance; this portfolio presents inspectable code, design choices, tests, and limitations rather than claiming unassisted authorship or unmeasured business impact.
+This walkthrough connects design decisions to source code and tests. PDOS is an open-source alpha maintained by [HaNa-486](https://github.com/HaNa-486) and developed with AI assistance. It does not yet establish live-model benefit or production readiness.
 
 ## A short source tour
 
@@ -38,7 +38,7 @@ It does **not** establish increased developer productivity, fewer real founder i
 
 The current grader can over-credit keyword matches, negation, echoed concepts, or fabricated evidence. A repository-owned deterministic release ZIP builder is also missing. Both are documented next steps, not completed achievements.
 
-## How to evaluate this portfolio
+## Explore the implementation
 
 - Run the two offline commands in the [README](../README.md#try-it-without-installing).
 - Inspect one case, its baseline and PDOS fixture responses, expected outcome, and scoring implementation together.

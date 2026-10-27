@@ -1,5 +1,13 @@
 # Validation and limitations
 
+## Documentation refresh verification
+
+On **2026-10-28 (Asia/Taipei)**, the README and supporting guides were reorganized without changing product code or version metadata. The same Windows/Python 3.12.10 setup again passed all **26 automated tests** and **12 fixture smoke gates** (`fixture_only`, `release_qualified: false`).
+
+The documented installer, bootstrap, project validator, and installed-copy doctor commands were also exercised with a new isolated Codex home and test project. Initial handoff warnings were expected after bootstrap; normal validation passed, while strict validation requires those placeholders to be reconciled. The normal user installation was not changed. Installer and diagnostic argument names were checked against their `--help` output.
+
+This rerun does not add live-model, other-platform, or production evidence. The optional quick-validator limitation described below remains unchanged.
+
 ## Public snapshot verification
 
 Report date: **2026-10-27 (Asia/Taipei)**. Product version: `0.4.0-alpha.1`.

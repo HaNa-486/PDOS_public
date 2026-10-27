@@ -4,7 +4,7 @@ PDOS is an experimental alpha. Small, reproducible fixes and adversarial eval ca
 
 ## Local setup
 
-Use Git and Python 3.9+. No production credentials, model API keys, or installed PDOS Skill are needed to run the offline suite:
+Use Git and Python 3.12 for the tested setup. The package declares Python 3.9+, but its minimum version has not been verified in the published validation run. No production credentials, model API keys, or installed PDOS Skill are needed to run the offline suite:
 
 ```bash
 python -m unittest discover -s tests -v
